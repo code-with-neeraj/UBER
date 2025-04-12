@@ -1,19 +1,21 @@
-
 # Project Documentation
+
 ---
 
 ## Overview
-This project is a ride-hailing application similar to Uber. It consists of a backend (Node.js) and a frontend (React.js).
+This project is a ride-hailing application similar to Uber. It consists of a backend (Node.js) and a frontend (React.js) styled using SCSS and Tailwind CSS.
 
 ### Features
 - User and Captain authentication.
 - Real-time ride updates using Socket.IO.
 - Integration with Gomaps API for geocoding and distance calculations.
 - Interactive map for live tracking.
+- Modern styling using SCSS and Tailwind CSS.
 
 ### Documentation
 - [Backend Documentation](README.md)
 - [Frontend Documentation](README.md)
+
 ### How to Run
 1. **Backend**
    - Navigate to the `Backend/` folder.
@@ -93,8 +95,6 @@ Backend/
 
 ---
 
-
-
 # Frontend Documentation
 
 ## Overview
@@ -105,6 +105,7 @@ The frontend is built using React.js and Vite. It provides a user-friendly inter
 - Real-time ride updates using Socket.IO.
 - Interactive map for live tracking using Leaflet.js.
 - Dynamic panels for ride creation and confirmation.
+- Modern styling using SCSS and Tailwind CSS.
 
 ### Folder Structure
 
@@ -114,6 +115,7 @@ frontend/
 │   ├── components/  
 │   ├── context/  
 │   ├── pages/  
+│   ├── styles/  
 │   ├── App.jsx  
 │   ├── main.jsx  
 │   └── index.css  
@@ -125,7 +127,8 @@ frontend/
 2. **`pages/`**: Contains pages like [Home](http://_vscodecontentref_/4), [UserLogin](http://_vscodecontentref_/5), [UserSignup](http://_vscodecontentref_/6), etc.
 3. **`components/`**: Reusable components like [LiveTracking](http://_vscodecontentref_/7), [VehiclePanel](http://_vscodecontentref_/8), etc.
 4. **`context/`**: Context providers for managing global state (e.g., [UserContext](http://_vscodecontentref_/9), [SocketContext](http://_vscodecontentref_/10)).
-5. **`vite.config.js`**: Configuration for Vite.
+5. **`styles/`**: SCSS files for modular and reusable styling.
+6. **`vite.config.js`**: Configuration for Vite.
 
 ### Key Pages
 - **[Home.jsx](http://_vscodecontentref_/11)**: Main page for users to find and book rides.
@@ -140,6 +143,80 @@ frontend/
 
 ---
 
+## Styling Documentation
+
+### SCSS
+The project uses SCSS for modular and reusable styling. SCSS files are organized by components and pages.
+
+#### Installation
+```bash
+npm install -g sass
+```
+
+#### Folder Structure
+src/
+├── components/
+│   ├── LiveTracking.scss
+│   ├── VehiclePanel.scss
+│   └── ConfirmRide.scss
+├── pages/
+│   ├── Home.scss
+│   ├── UserLogin.scss
+│   ├── UserSignup.scss
+│   └── CaptainHome.scss
+└── global.scss
+
+#### Example Usage
+```scss
+// Example SCSS file for LiveTracking component
+.LiveTracking {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  .map {
+    border-radius: 10px;
+  }
+}
+```
+
+### Tailwind CSS
+Tailwind CSS is used for utility-first styling. It is configured in the `tailwind.config.js` file.
+
+#### Installation
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+```
+
+#### Configuration
+```javascript
+// tailwind.config.js
+module.exports = {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+```
+
+#### Example Usage
+```html
+<div class="flex items-center justify-center h-screen bg-gray-100">
+  <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">
+    Confirm Ride
+  </button>
+</div>
+```
+
+---
+
+### Summary of Updates
+1. Added **SCSS** documentation with folder structure, examples, and usage.
+2. Added **Tailwind CSS** documentation with installation, configuration, and examples.
+3. Updated the [README.md](http://_vscodecontentref_/1) to reflect the use of SCSS and Tailwind CSS for styling.
+
+---
 
 # Project Flowchart
 
@@ -165,7 +242,7 @@ The flowchart illustrates the interaction between the frontend, backend, and ext
    - Manages ride creation, fare calculation, and status updates.
    - Communicates with the frontend using Socket.IO.
    - Integrates with Gomaps API for geocoding and distance calculations.
-   
+
 ---
 
 
