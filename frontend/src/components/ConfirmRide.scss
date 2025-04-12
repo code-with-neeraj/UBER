@@ -1,0 +1,16 @@
+// src/styles/confirmButton.scss
+.confirm-btn {
+    width: 100%;
+    margin-top: 1.25rem;
+    background-color: #16a34a;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+  
+    &:hover {
+        box-shadow: 0 6px 13px rgba(43, 185, 43, 0.607); 
+    }
+  }

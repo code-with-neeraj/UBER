@@ -1,0 +1,24 @@
+.map-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    pointer-events: auto; 
+}
+
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+    pointer-events: auto; 
+}
+
+.leaflet-control-zoom {
+   position: relative !important;
+   top: 3rem;
+  }
+
+.leaflet-control-layers {
+    position: relative !important;
+   top: 3rem;
+} 
+  

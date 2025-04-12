@@ -1,0 +1,16 @@
+.payment-btn {
+    width: 100%;                // Full width
+    margin-top: 1.25rem;        // 20px top margin
+    background-color: #16a34a;  // Green-600 from Tailwind
+    color: #ffffff;            // White text
+    font-weight: 600;          // Semibold
+    padding: 0.5rem;           // 8px padding all around
+    border-radius: 0.5rem;     // 8px rounded corners
+    border: none;             // No border (for buttons)
+    cursor: pointer;          // Clickable feel
+  
+    &:hover {
+      background-color: darken(#16a34a, 10%); // Darker green on hover
+    box-shadow: 0px 6px 16px #16a34a;
+    }
+  }

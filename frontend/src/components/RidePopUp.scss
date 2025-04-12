@@ -1,0 +1,29 @@
+.ignore-btn {
+    background-color: #d1d5db;  
+    color: #4b5563;            
+    font-weight: 600;          
+    padding: 0.75rem 2.5rem;   
+    border-radius: 0.5rem;     
+    border: none;             
+    cursor: pointer;          
+   
+  
+    &:hover {
+      box-shadow: 0px 6px 16px #888f99;
+    }
+  }
+
+.accept-btn {
+    background-color: #16a34a;  
+    color: #ffffff;            
+    font-weight: 600;          
+    padding: 0.75rem 2.5rem;   
+    border-radius: 0.5rem;     // 8px rounded corners
+    border: none;             // No border (for buttons)
+    cursor: pointer;          
+   
+
+    &:hover {
+      box-shadow: 0px 6px 16px #16a34a;
+    }
+  }

@@ -1,0 +1,39 @@
+// src/styles/captainLogin.scss
+.login-btn {
+    background-color: #111111;     // Dark gray background (#111)
+    color: #ffffff;               // White text
+    font-weight: 600;            // Semibold
+    margin-bottom: 0.75rem;      // 12px bottom margin
+    border-radius: 0.25rem;      // 4px rounded corners
+    padding: 0.5rem 1rem;        // 8px top/bottom, 16px left/right
+    width: 100%;                // Full width
+    font-size: 1.125rem;        // 18px text size
+    border: none;               // No border (for buttons)
+    cursor: pointer;           // Clickable feel
+  
+    &:hover {
+      box-shadow: 0 6px 16px #333131; 
+    }
+  }
+
+
+.sign-in-cap-link {
+    background-color: #10b461;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    font-size: 1.125rem;
+    text-decoration: none;
+    cursor: pointer;
+    
+  
+    &:hover {
+      box-shadow: 0 6px 13px rgba(43, 185, 43, 0.607); 
+    }
+  }

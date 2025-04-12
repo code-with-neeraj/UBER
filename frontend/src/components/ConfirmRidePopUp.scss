@@ -1,0 +1,36 @@
+.confirm-btn {
+    width: 100%;                // Full width
+    margin-top: 1.25rem;        // 20px top margin
+    font-size: 1.125rem;        // 18px text size
+    background-color: #16a34a;  // Green-600 from Tailwind
+    display: flex;             // Flexbox layout
+    justify-content: center;   // Horizontal center
+    color: #ffffff;            // White text
+    font-weight: 600;          // Semibold
+    padding: 0.75rem;          // 12px padding all around
+    border-radius: 0.5rem;     // 8px rounded corners
+    border: none;             // No border (for buttons)
+    cursor: pointer;          // Clickable feel
+  
+    &:hover { 
+        box-shadow: 0px 6px 16px #20ce60;
+    }
+  }
+
+
+.cancel-btn {
+    width: 100%;                // Full width
+    margin-top: 0.5rem;         // 8px top margin
+    background-color: #ef4444;  // Red-500 from Tailwind
+    font-size: 1.125rem;        // 18px text size
+    color: #ffffff;            // White text
+    font-weight: 600;          // Semibold
+    padding: 0.75rem;          // 12px padding all around
+    border-radius: 0.5rem;     // 8px rounded corners
+    border: none;             // No border (for buttons)
+    cursor: pointer;          // Clickable feel
+  
+    &:hover { 
+        box-shadow: 0px 6px 16px #ef4444;
+    }
+  }

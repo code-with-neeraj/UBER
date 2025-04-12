@@ -1,0 +1,16 @@
+.find-trip-btn {
+    background-color: #000000; // Black background
+    color: #ffffff;          // White text
+    padding: 0.5rem 1rem;    // 8px top/bottom, 16px left/right
+    border-radius: 0.5rem;   // 8px rounded corners
+    margin-top: 1rem;     // 12px top margin
+    width: 100%;            // Full width
+    border: none;           // No border
+    cursor: pointer;        // Clickable pointer
+  
+    &:hover {
+        box-shadow: 0 6px 16px #333131; 
+    }
+  }
+
+  

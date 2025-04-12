@@ -1,0 +1,18 @@
+.continue-btn {
+    display: flex;             // Flexbox layout
+    align-items: center;       // Vertical center
+    justify-content: center;   // Horizontal center
+    width: 100%;              // Full width
+    background-color: #000000; // Black background
+    color: #ffffff;           // White text
+    padding-top: 0.75rem;     // 12px top padding
+    padding-bottom: 0.75rem;  // 12px bottom padding
+    border-radius: 0.5rem;    // 8px rounded corners
+    margin-top: 1.25rem;      // 20px top margin
+    text-decoration: none;    // No underline (for <Link>)
+    cursor: pointer;         // Clickable feel
+    
+    &:hover {
+        box-shadow: 0 6px 16px #333131; 
+    }
+  }
