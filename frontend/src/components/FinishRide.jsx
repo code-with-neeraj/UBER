@@ -39,7 +39,7 @@ const FinishRide = (props) => {
         <div className="flex items-center gap-3 ">
           <img
             className="h-12 rounded-full object-cover w-12 "
-            src="https://photosbulk.com/wp-content/uploads/2024/08/real-pic-girl-simple-attitude_32.webp"
+            src="https://photosbook.in/wp-content/uploads/stylish-cartoon-boy-dp10.jpg"
             alt=""
           />
           <h2 className="text-lg font-medium">
@@ -78,7 +78,10 @@ const FinishRide = (props) => {
         </div>
 
         <div className="mt-10 w-full">
-          <button onClick={endRide} className="finish-ride-btn">
+          <button
+            onClick={endRide}
+            className="w-full bg-black hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300"
+          >
             Finish Ride
           </button>
         </div>

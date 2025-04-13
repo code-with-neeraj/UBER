@@ -6,7 +6,7 @@ const CaptainDetails = () => {
     <div>
          <div className="flex items-center justify-between">
           <div className="flex items-center justify-start gap-3">
-            <img className="h-10 w-10 rounded-full object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScXu0fpfOqtxkmCSSdXz3taIXDduBFjRq-ZA&s" alt="" />
+            <img className="h-10 w-10 rounded-full object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHLLzE-5FgIjPdtvZmRpfZR4a_1_9cl2RCsg&s" alt="" />
             <h4 className="text-lg font-medium">Alok Raj</h4>
           </div>
           <div>

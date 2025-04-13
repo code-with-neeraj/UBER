@@ -48,7 +48,7 @@ const ConfirmRidePopUp = (props) => {
         <div className="flex items-center gap-3 ">
           <img
             className="h-12 rounded-full object-cover w-12 "
-            src="https://photosbulk.com/wp-content/uploads/2024/08/real-pic-girl-simple-attitude_32.webp"
+            src="https://as1.ftcdn.net/jpg/05/87/99/44/1000_F_587994464_vPR0INUhG3k0ixKEMPb4EmAhOQPST9BM.jpg"
             alt=""
           />
           <h2 className="text-lg font-medium capitalize">
