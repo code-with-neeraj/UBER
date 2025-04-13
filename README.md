@@ -28,8 +28,17 @@ This project is a ride-hailing application similar to Uber. It consists of a bac
    - Start the development server: `npm run dev`.
 
 3. **Environment Variables**
-   - Backend: `.env` file with `PORT`, `DB_CONNECT`, `JWT_SECRET`, and `GOMAPS_API`.
-   - Frontend: `.env` file with `VITE_BASE_URL`.
+   - Backend: `.env` file with the following variables:
+     ```
+     PORT=5000
+     ConnectionDB_CONNECT=<MongoDB__String>
+     JWT_SECRET=<Your_Secret_Key>
+     GOMAPS_API=<Google_Maps_API_Key>
+     ```
+   - Frontend: `.env` file with the following variable:
+     ```
+     VITE_BASE_URL=<Backend_Base_URL>
+     ```
 
 ---
 
@@ -244,6 +253,7 @@ The flowchart illustrates the interaction between the frontend, backend, and ext
    - Integrates with Gomaps API for geocoding and distance calculations.
 
 ---
+````
 
 
 
