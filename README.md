@@ -253,4 +253,3 @@ The flowchart illustrates the interaction between the frontend, backend, and ext
    - Integrates with Gomaps API for geocoding and distance calculations.
 
 ---
-````
