@@ -33,7 +33,7 @@ This project is a ride-hailing application similar to Uber. It consists of a bac
      PORT=5000
      ConnectionDB_CONNECT=<MongoDB__String>
      JWT_SECRET=<Your_Secret_Key>
-     GOMAPS_API=<Google_Maps_API_Key>
+     GOMAPS_API=<GoMaps_API_Key>
      ```
    - Frontend: `.env` file with the following variable:
      ```
